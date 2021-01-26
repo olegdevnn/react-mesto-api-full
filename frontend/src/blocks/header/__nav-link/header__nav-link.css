@@ -1,0 +1,26 @@
+.header__nav-item {
+  padding: 0 24px 0 0;
+
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.header__nav-item:last-of-type {
+  margin-right: 0;
+}
+
+.header__nav-item:hover {
+  transition: color 0.2s linear;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 767px) {
+  .header__nav-item {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

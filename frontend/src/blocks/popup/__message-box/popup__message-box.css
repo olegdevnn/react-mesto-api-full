@@ -1,0 +1,7 @@
+.popup__message-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+}

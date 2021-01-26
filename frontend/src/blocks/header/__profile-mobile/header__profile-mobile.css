@@ -1,0 +1,14 @@
+.header__profile-mobile {
+  display: none;
+
+  width: 100%;
+  padding: 40px 0;
+
+  border-bottom: 1px solid #545454;
+}
+
+@media (max-width: 767px) {
+  .header__profile-mobile {
+    display: block;
+  }
+}

@@ -1,0 +1,12 @@
+.header__auth-mobile-link {
+  justify-content: center;
+
+  width: max-content;
+  margin: 0 0 18px;
+
+  text-align: center;
+}
+
+.header__auth-mobile-link:last-of-type {
+  margin-bottom: 0;
+}

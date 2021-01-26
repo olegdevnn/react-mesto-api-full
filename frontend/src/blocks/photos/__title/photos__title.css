@@ -1,0 +1,18 @@
+.photos__title {
+  display: block;
+  overflow: hidden;
+
+  margin: 0;
+  padding: 20px 0 0 21px;
+
+  vertical-align: middle;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  color: #000;
+
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+  grid-area: element__title;
+}

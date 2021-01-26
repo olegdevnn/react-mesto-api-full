@@ -1,0 +1,11 @@
+.header__open-profile-link {
+  width: 24px;
+  height: 3px;
+  margin-bottom: 7px;
+
+  background-color: #fff;
+}
+
+.header__open-profile-link:last-of-type {
+  margin-bottom: 0;
+}

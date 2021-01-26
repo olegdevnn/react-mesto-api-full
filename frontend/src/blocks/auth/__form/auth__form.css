@@ -1,0 +1,19 @@
+.auth__form {
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  max-height: 350px;
+  margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+  .auth__form {
+    max-height: 297px;
+    margin-top: 30px;
+  }
+}

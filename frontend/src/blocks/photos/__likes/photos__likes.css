@@ -1,0 +1,9 @@
+.photos__likes {
+  margin: 3px 15px 0 0;
+
+  text-align: center;
+
+  font-size: 13px;
+  line-height: 16px;
+  grid-area: element__likes;
+}

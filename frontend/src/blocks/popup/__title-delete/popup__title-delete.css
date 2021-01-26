@@ -1,0 +1,15 @@
+.popup__title-delete {
+  margin: 0 0 36px 0;
+
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+}
+
+@media (max-width: 767px) {
+  .popup__title-delete {
+    margin-bottom: 30px;
+
+    font-size: 20px;
+  }
+}

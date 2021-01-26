@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <meta name="description" content="Проект Место"/>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+    <!-- Production environment-->
+<!--    <meta http-equiv="Content-Security-Policy" content="-->
+<!--        default-src 'self';-->
+<!--        font-src 'self';-->
+<!--        manifest-src 'self';-->
+<!--        script-src https: 'unsafe-inline';-->
+<!--        connect-src 'self' http://localhost:3000 https://api.oleg-zvonilov.students.nomoredomains.monster;-->
+<!--        img-src *;-->
+<!--        style-src 'self';-->
+<!--        base-uri 'self';-->
+<!--        form-action 'self';-->
+<!--    ">-->
+    <!-- Development environment-->
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        font-src 'self';
+        manifest-src 'self';
+        connect-src 'self' http://localhost:3000 https://api.oleg-zvonilov.students.nomoredomains.monster;
+        img-src *;
+        style-src 'unsafe-inline';
+        base-uri 'self';
+        form-action 'self';
+    ">
+    <title>Проект Место</title>
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root"></div>
+</body>
+</html>

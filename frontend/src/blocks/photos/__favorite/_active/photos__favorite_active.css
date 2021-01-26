@@ -1,0 +1,5 @@
+.photos__favorite_active {
+  background:
+    center/contain no-repeat
+    url(../../../../images/favorite-active.svg);
+}

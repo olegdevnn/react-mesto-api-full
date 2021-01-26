@@ -1,0 +1,18 @@
+.photos__favorite {
+  width: 21px;
+  height: 18px;
+  margin: 27px 15px 0 0;
+  padding: 0;
+
+  border: 0;
+  outline: none;
+  background: center/contain no-repeat url(../../../images/favorite.svg);
+  grid-area: element__favorite;
+}
+
+.photos__favorite:hover {
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+
+  opacity: 0.6;
+}

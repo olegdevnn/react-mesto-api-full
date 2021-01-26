@@ -1,0 +1,7 @@
+.logo {
+  width: 100%;
+  max-width: 142px;
+  height: 33px;
+
+  background: center/contain no-repeat url(../../images/logo.svg);
+}

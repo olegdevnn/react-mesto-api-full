@@ -1,0 +1,41 @@
+{
+  "name": "mesto",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Сайт для публикации изображений из путешествий",
+  "author": "Oleg Zvonilov <oleg.zvonilov@yandex.ru>",
+  "keywords": [
+    "express",
+    "mongoose",
+    "mongodb",
+    "joi",
+    "jest",
+    "rest",
+    "jwt",
+    "api",
+    "node",
+    "security",
+    "propTypes",
+    "memo",
+    "flex",
+    "grid",
+    "html5",
+    "mediaQuery",
+    "eslint",
+    "stylelint"
+  ],
+  "bugs": {
+    "url": "https://github.com/olegdevnn/react-mesto-api-full/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olegdevnn/react-mesto-api-full.git"
+  },
+  "homepage": "https://github.com/olegdevnn/react-mesto-api-full#readme",
+  "scripts": {
+    "start": "node backend",
+    "server": "npm start --prefix backend",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  }
+}

@@ -1,0 +1,18 @@
+.photos__item {
+  position: relative;
+
+  display: grid;
+  align-items: center;
+
+  padding: 0 0 25px;
+
+  border-radius: 10px;
+  background-color: #fff;
+  grid-auto-rows: 282px min-content min-content;
+  grid-auto-columns: auto min-content min-content;
+  grid-column-gap: 15px;
+  grid-template-areas:
+    "photos__button photos__button"
+    "element__title element__favorite"
+    "element__title element__likes";
+}

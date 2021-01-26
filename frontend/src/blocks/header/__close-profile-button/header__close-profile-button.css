@@ -1,0 +1,25 @@
+.header__close-profile-button {
+  display: none;
+
+  width: 30px;
+  height: 30px;
+  padding: 0;
+
+  border: 0;
+  outline: 0;
+  background: center/cover no-repeat url(../../../images/close-icon.svg);
+  background-size: 100% 100%;
+}
+
+.header__close-profile-button:hover {
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+
+  opacity: 0.6;
+}
+
+@media (max-width: 767px) {
+  .header__close-profile-button {
+    display: block;
+  }
+}

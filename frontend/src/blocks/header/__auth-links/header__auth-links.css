@@ -1,0 +1,19 @@
+.header__auth-links {
+  margin: 0 0 16px 0;
+  padding: 0;
+
+  list-style-type: none;
+
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.header__auth-links:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .header__auth-links {
+    display: none;
+  }
+}

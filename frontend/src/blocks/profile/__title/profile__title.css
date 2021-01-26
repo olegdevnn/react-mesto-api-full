@@ -1,0 +1,10 @@
+.profile__title {
+  display: flex;
+  align-items: baseline;
+}
+
+@media (max-width: 767px) {
+  .profile__title {
+    margin: 0 auto;
+  }
+}

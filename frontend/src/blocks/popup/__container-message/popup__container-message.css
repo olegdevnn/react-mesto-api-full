@@ -1,0 +1,16 @@
+.popup__container-message {
+  position: relative;
+
+  box-sizing: border-box;
+  padding: 60px 36px;
+
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 767px) {
+  .popup__container-message {
+    padding: 50px 18px;
+  }
+}

@@ -1,0 +1,20 @@
+.photos__delete {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+  width: 18px;
+  height: 19px;
+  padding: 0;
+
+  border: 0;
+  outline: none;
+  background: center/cover no-repeat url(../../../images/delete.svg);
+}
+
+.photos__delete:hover {
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+
+  opacity: 0.6;
+}
