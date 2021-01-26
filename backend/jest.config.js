@@ -3,5 +3,4 @@ module.exports = {
   bail: 1,
   testEnvironment: 'node',
   transform: {},
-  preset: '@shelf/jest-mongodb',
 };
