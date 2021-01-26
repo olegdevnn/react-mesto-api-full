@@ -9,4 +9,5 @@ const verifyPassword = (password, helpers) => {
 
   return helpers.error('password.invalid');
 };
+
 module.exports = verifyPassword;

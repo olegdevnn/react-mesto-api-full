@@ -6,8 +6,11 @@ const limitReached = (req, res) => res
   .status(429).send({ message: 'Много соединений.' });
 
 const addOptions = {
-  onLimitReached: limitReached, // При первом достижения ограничения лимита
-  handler: limitReached, // После превышения максимального лимита
+  // При первом достижения ограничения лимита
+  onLimitReached: limitReached,
+
+  // После превышения максимального лимита
+  handler: limitReached,
 };
 
 const apiLimiter = rateLimit(Object.assign(API_LIMITER_CONFIG, addOptions));

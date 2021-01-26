@@ -22,6 +22,14 @@ const cardLikeSchema = new Schema(
   },
 );
 
-cardLikeSchema.index({ card: 1, owner: 1 }, { unique: true });
+cardLikeSchema.index(
+  {
+    card: 1,
+    owner: 1,
+  },
+  {
+    unique: true,
+  },
+);
 
 module.exports = mongoose.model('cardLike', cardLikeSchema);

@@ -172,7 +172,7 @@ class api {
       method: 'PUT',
       headers: this.headers,
       credentials: 'include',
-    }).then((res) => api.checkStatus(res, 201));
+    }).then((res) => api.checkStatus(res, 200));
   }
 
   /**

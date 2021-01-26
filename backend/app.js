@@ -127,7 +127,9 @@ app.use('/cards', auth, cardsRouter);
 app.use('/users', auth, usersRouter);
 
 // 404 роутеры не логируюся
-app.use((req, res) => res.status(404).send(new NotFoundError('Запрашиваемый ресурс не найден')));
+app.use((req, res) => res
+  .status(404)
+  .send(new NotFoundError('Запрашиваемый ресурс не найден')));
 
 app.use(errorLogger);
 

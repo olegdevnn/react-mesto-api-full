@@ -13,4 +13,5 @@ const modelCard = {
     maxLength,
   },
 };
+
 module.exports = modelCard;

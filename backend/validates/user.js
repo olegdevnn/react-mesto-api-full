@@ -4,10 +4,11 @@ const User = require('../models/user');
 const joiMessages = require('../units/joiMessages');
 const linkSchema = require('./link');
 
+const { string } = Joi.types();
+
 const {
   email, password, name, about,
 } = User.config;
-const { string } = Joi.types();
 
 const emailSchema = string
   .label('Почта')

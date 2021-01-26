@@ -1,6 +1,4 @@
-/**
- * @jest-environment jsdom
- */
+// Only no cors
 
 const request = require('supertest');
 

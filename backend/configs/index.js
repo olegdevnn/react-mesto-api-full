@@ -5,7 +5,8 @@ dotenv.config();
 // Служебная информация
 const SALT_ROUNDS = 10;
 
-const JWT_SECRET_DEV = process.env.JWT_SECRET || 'dev-secret';
+// Секретный ключ, используется в разных модулях
+const JWT_SECRET = process.env.JWT_SECRET || 'dev-secret';
 
 // Максимальное кол-во карточек на странице
 const MAX_CARDS = 30;
@@ -28,7 +29,7 @@ const API_LIMITER_CONFIG = {
 
 module.exports = {
   SALT_ROUNDS,
-  JWT_SECRET_DEV,
+  JWT_SECRET,
   MAX_CARDS,
   API_LIMITER_CONFIG,
   CORS_WHITELIST,
