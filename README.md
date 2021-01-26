@@ -11,9 +11,9 @@
 IP сервера: [178.154.233.31]()
   
 Сайт:  
-[https://oleg-zvonilov.students.nomoredomains.monster]()
+[https://oleg-zvonilov.students.nomoredomains.monster](https://oleg-zvonilov.students.nomoredomains.monster)
 
 Api:  
-[https://api.oleg-zvonilov.students.nomoredomains.monster]()
+[https://api.oleg-zvonilov.students.nomoredomains.monster](https://api.oleg-zvonilov.students.nomoredomains.monster)
 
 
