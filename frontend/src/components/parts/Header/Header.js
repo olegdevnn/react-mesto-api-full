@@ -3,7 +3,7 @@ import React, { memo, useState } from 'react';
 import PropTypes from 'prop-types';
 import { Link, useLocation } from 'react-router-dom';
 
-import { HOME_LINK } from '../../utils/utils';
+import { HOME_LINK } from '../../../utils/utils';
 import ButtonProfile from './ButtonProfile';
 import NavGuest from './NavGuest';
 import NavProfile from './NavProfile';

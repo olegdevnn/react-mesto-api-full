@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import { SING_IN_LINK } from '../utils/utils';
+import { SING_IN_LINK } from '../../utils/utils';
 
 const Register = ({ onRegister }) => {
   const [email, setEmail] = useState('');

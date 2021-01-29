@@ -2,8 +2,8 @@ import React, { memo } from 'react';
 
 import PropTypes from 'prop-types';
 
-import EventClosePopup from './EventClosePopup';
-import PopupButtonClose from './PopupButtonClose';
+import EventClosePopup from '../popup/EventClosePopup';
+import PopupButtonClose from '../popup/PopupButtonClose';
 
 const ImagePopup = ({ card, isOpen, onClose }) => (
   <div className={`popup popup_view-photo ${isOpen ? 'popup_opened' : ''}`}>

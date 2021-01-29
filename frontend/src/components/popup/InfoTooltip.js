@@ -2,8 +2,8 @@ import React, { memo } from 'react';
 
 import PropTypes from 'prop-types';
 
-import errorIcon from '../images/error.svg';
-import okIcon from '../images/ok.svg';
+import errorIcon from '../../images/error.svg';
+import okIcon from '../../images/ok.svg';
 import EventClosePopup from './EventClosePopup';
 import PopupButtonClose from './PopupButtonClose';
 

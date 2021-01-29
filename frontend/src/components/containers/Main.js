@@ -2,8 +2,8 @@ import React, { memo, useContext } from 'react';
 
 import PropTypes from 'prop-types';
 
-import CurrentUserContext from '../contexts/CurrentUserContext';
-import Card from './Card';
+import CurrentUserContext from '../../contexts/CurrentUserContext';
+import Card from '../place/Card';
 
 const Main = ({
   onCardClick,

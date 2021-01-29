@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 
 import { Link } from 'react-router-dom';
 
-import { HOME_LINK } from '../utils/utils';
+import { HOME_LINK } from '../../utils/utils';
 
 const Error404 = () => (
   <main className="content">

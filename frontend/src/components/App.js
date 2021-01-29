@@ -1,3 +1,4 @@
+// TODO структура файлов временная
 import React, { useCallback, useEffect, useState } from 'react';
 
 import { Route, Switch } from 'react-router';
@@ -12,19 +13,19 @@ import {
   SING_IN_LINK,
   SING_UP_LINK,
 } from '../utils/utils';
-import AddPlacePopup from './AddPlacePopup';
-import DeletePlacePopup from './DeletePlacePopup';
-import EditAvatarPopup from './EditAvatarPopup';
-import EditProfilePopup from './EditProfilePopup';
-import Error404 from './Error404';
-import Footer from './Footer';
-import Header from './Header/Header';
-import ImagePopup from './ImagePopup';
-import InfoTooltip from './InfoTooltip';
-import Login from './Login';
-import Main from './Main';
+import Error404 from './containers/Error404';
+import Login from './containers/Login';
+import Main from './containers/Main';
+import Register from './containers/Register';
+import Footer from './parts/Footer/Footer';
+import Header from './parts/Header/Header';
+import AddPlacePopup from './place/AddPlacePopup';
+import DeletePlacePopup from './place/DeletePlacePopup';
+import ImagePopup from './place/ImagePopup';
+import InfoTooltip from './popup/InfoTooltip';
+import EditAvatarPopup from './profile/EditAvatarPopup';
+import EditProfilePopup from './profile/EditProfilePopup';
 import ProtectedRoute from './ProtectedRoute';
-import Register from './Register';
 import '../index.css';
 
 export default function App() {

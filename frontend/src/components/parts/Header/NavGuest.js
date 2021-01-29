@@ -2,7 +2,7 @@ import React from 'react';
 
 import { NavLink } from 'react-router-dom';
 
-import { SING_IN_LINK, SING_UP_LINK } from '../../utils/utils';
+import { SING_IN_LINK, SING_UP_LINK } from '../../../utils/utils';
 
 const NavGuest = () => (
   <nav>

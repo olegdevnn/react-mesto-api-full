@@ -2,7 +2,7 @@ import React, { memo, useEffect, useState } from 'react';
 
 import PropTypes from 'prop-types';
 
-import PopupWithForm from './PopupWithForm';
+import PopupWithForm from '../popup/PopupWithForm';
 
 const AddPlacePopup = ({
   onAddPlace,

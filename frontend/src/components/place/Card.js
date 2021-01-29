@@ -2,7 +2,7 @@ import React, { memo, useContext } from 'react';
 
 import PropTypes from 'prop-types';
 
-import CurrentUserContext from '../contexts/CurrentUserContext';
+import CurrentUserContext from '../../contexts/CurrentUserContext';
 
 /**
  * Создание карточки <Card /> компонента

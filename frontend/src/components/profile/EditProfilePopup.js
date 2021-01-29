@@ -4,8 +4,8 @@ import React, {
 
 import PropTypes from 'prop-types';
 
-import CurrentUserContext from '../contexts/CurrentUserContext';
-import PopupWithForm from './PopupWithForm';
+import CurrentUserContext from '../../contexts/CurrentUserContext';
+import PopupWithForm from '../popup/PopupWithForm';
 
 const EditProfilePopup = ({
   onUpdateUser, isOpen, onClose, isLoading,
