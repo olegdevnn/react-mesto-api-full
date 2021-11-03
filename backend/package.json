@@ -40,7 +40,7 @@
     "request": "^2.88.2",
     "tough-cookie": "^4.0.0",
     "type-is": "^1.6.18",
-    "validator": "^13.5.2",
+    "validator": "^13.7.0",
     "winston": "^3.3.3"
   },
   "devDependencies": {
